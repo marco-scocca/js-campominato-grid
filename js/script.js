@@ -1,4 +1,12 @@
+function createSingleSquare(num) {
+    const square = document.createElement('div');
+    square.classList.add('square');
+    square.innerText = num;
+
+}
+
 const button = document.getElementById('play');
 button.addEventListener('click', function () {
-    console.log('cominciamo la partita');
+    const grid = document.getElementById('grid');
+
 });
