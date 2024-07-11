@@ -9,6 +9,8 @@
     height: 900px;
     margin: 0 auto;
     background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 header {
@@ -48,4 +50,16 @@ main h2 {
 
 .btn-white:hover {
     background-color: rgb(124, 119, 119);
+}
+
+.square {
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    border: 1px solid white;
+    background-color: black;
 }
