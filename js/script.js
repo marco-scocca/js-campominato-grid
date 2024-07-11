@@ -3,6 +3,8 @@ function createSingleSquare(num) {
     square.classList.add('square');
     square.innerText = num + 1;
     square.addEventListener('click', function () {
+        this.classList.add('clicked');
+        console.log(this.innerText);
     });
     return square;
 
